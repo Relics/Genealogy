@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<bitmap android:src="@drawable/bottombar_bg" android:tileMode="repeat"
+  xmlns:android="http://schemas.android.com/apk/res/android" /><!-- From: file:/Users/lichen/AndroidStudioProjects/WbFamilyTree/res/drawable/s_bottombar_bg.xml -->

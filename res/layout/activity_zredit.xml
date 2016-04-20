@@ -1,0 +1,381 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#ffffffff" >
+<LinearLayout 
+      android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical"
+    >
+    
+    <RelativeLayout
+            android:id="@+id/absTitle_fm"
+            android:layout_width="match_parent"
+            android:layout_height="55dip"
+            android:layout_alignParentTop="true"
+            android:background="@color/careyun_maincolor" >
+
+            <include
+                android:id="@+id/main_title_showNum"
+                layout="@layout/main_title" />
+        </RelativeLayout>
+    
+    
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin" >
+
+        
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="1.0" >
+
+            <TextView
+                android:id="@id/tvCname"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_column="1"
+                android:text="族人全名" />
+
+            <EditText
+                android:id="@id/etCname"
+                android:layout_width="120.0dip"
+                android:layout_height="wrap_content"
+                android:layout_column="3"
+                android:hint="@string/hintCname"
+                android:maxLength="12"
+                android:minWidth="100.0dip" />
+
+            <EditText
+                android:id="@id/etLastname"
+                android:layout_width="120.0dip"
+                android:layout_height="wrap_content"
+                android:layout_column="3"
+                android:layout_marginLeft="10.0dip"
+                android:hint="@string/hintLastname"
+                android:maxLength="12"
+                android:minWidth="100.0dip" 
+                android:visibility="gone"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="1.0" >
+
+            <TextView
+                android:id="@id/tvTitleZrCard"
+                android:layout_width="90.0dip"
+                android:layout_height="wrap_content"
+                android:layout_column="1"
+                android:layout_row="4"
+                android:text="性别"
+                android:textAppearance="?android:textAppearanceLarge" />
+
+            <RadioGroup
+                android:id="@+id/rgp"
+                android:layout_width="158.0dip"
+                android:layout_height="wrap_content"
+                android:layout_column="9"
+                android:layout_row="4"
+                android:layout_weight="0.21"
+                android:clickable="false"
+                android:minHeight="10.0dip"
+                android:orientation="horizontal" >
+
+                <RadioButton
+                    android:id="@id/rbSex1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:checked="true"
+                    android:text="男" />
+
+                <RadioButton
+                    android:id="@id/rbSex2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:checked="false"
+                    android:text="女" />
+            </RadioGroup>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@id/tvBirthday"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_column="1"
+                android:text="出生日期"
+                android:textAppearance="?android:textAppearanceLarge" />
+
+            <EditText
+                android:id="@id/etBirthday"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_column="3"
+                android:hint="@string/birthdayhint"
+                android:minWidth="180.0dip" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@id/tvZrLevel"
+                android:layout_width="90.0dip"
+                android:layout_height="wrap_content"
+                android:layout_column="1"
+                android:text="世代"
+                android:textAppearance="?android:textAppearanceLarge" />
+
+            <EditText
+                android:id="@id/etZrLevel"
+                android:layout_width="50.0dip"
+                android:layout_height="wrap_content"
+                android:layout_column="3"
+                android:hint="@string/zrlevelhint"
+                android:inputType="number"
+                android:numeric="integer" />
+
+            <TextView
+                android:id="@id/tvRank"
+                android:layout_width="90.0dip"
+                android:layout_height="wrap_content"
+                android:layout_column="1"
+                android:layout_marginLeft="10.0dip"
+                android:gravity="center"
+                android:text="排行"
+                android:textAppearance="?android:textAppearanceLarge" />
+
+            <EditText
+                android:id="@id/etRank"
+                android:layout_width="50.0dip"
+                android:layout_height="wrap_content"
+                android:layout_column="3"
+                android:hint="@string/zrrankhint"
+                android:inputType="number"
+                android:numeric="integer" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:visibility="gone" >
+
+            <TextView
+                android:id="@id/tvSameSurname"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_column="1"
+                android:text="是否本姓"
+                android:textAppearance="?android:textAppearanceLarge" />
+
+            <CheckBox
+                android:id="@id/cbSameSurname"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_column="3"
+                android:layout_gravity="center_horizontal"
+                android:checked="true"
+                android:text="本姓族人" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@id/tvFatherID"
+                android:layout_width="90.0dip"
+                android:layout_height="wrap_content"
+                android:layout_column="1"
+                android:text="父亲"
+                android:textAppearance="?android:textAppearanceLarge" />
+
+            <EditText
+                android:id="@id/etFatherID"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_column="3"
+                android:minWidth="180.0dip" />
+
+            <TextView
+                android:id="@id/tvFathername"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_column="3"
+                android:text="F"
+                android:textAppearance="?android:textAppearanceSmall" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@id/tvMotherID"
+                android:layout_width="90.0dip"
+                android:layout_height="wrap_content"
+                android:layout_column="1"
+                android:text="母亲"
+                android:textAppearance="?android:textAppearanceLarge" />
+
+            <EditText
+                android:id="@id/etMotherID"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_column="3"
+                android:minWidth="180.0dip" />
+
+            <TextView
+                android:id="@id/tvMothername"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_column="3"
+                android:text="M"
+                android:textAppearance="?android:textAppearanceSmall" />
+        </LinearLayout>
+ <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <TextView
+               
+                android:layout_width="90.0dip"
+                android:layout_height="wrap_content"
+                android:layout_column="1"
+                android:text="配偶"
+                android:textAppearance="?android:textAppearanceLarge" />
+
+            <EditText
+                android:id="@+id/spouse"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_column="3"
+                android:minWidth="180.0dip" />
+
+            <TextView
+                
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_column="3"
+                
+                android:textAppearance="?android:textAppearanceSmall" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" 
+            android:visibility="gone"
+            >
+
+            <TextView
+                android:id="@id/tvBornPlace"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_column="1"
+                android:text="出生地址"
+                android:textAppearance="?android:textAppearanceLarge" />
+
+            <EditText
+                android:id="@id/etPlace"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_column="3"
+                android:minWidth="180.0dip" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:visibility="gone" >
+
+            <TextView
+                android:id="@id/tvLiveStatus"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_column="1"
+                android:text="生存状态"
+                android:textAppearance="?android:textAppearanceLarge" />
+
+            <CheckBox
+                android:id="@id/cbLiveStatus"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_column="3"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginLeft="20.0dip"
+                android:text="在世" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@id/llEnddate"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:visibility="invisible" >
+
+            <TextView
+                android:id="@id/tvEnddate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_column="1"
+                android:text="离世日期"
+                android:textAppearance="?android:textAppearanceLarge" />
+
+            <EditText
+                android:id="@id/etEndDate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_column="3"
+                android:hint="@string/birthdayhint"
+                android:maxLength="20"
+                android:minWidth="180.0dip" />
+
+            <ImageButton
+                android:id="@id/ibEnddate"
+                android:layout_width="33.0dip"
+                android:layout_height="33.0dip"
+                android:layout_gravity="center"
+                android:onClick="ShowEndDD"
+                android:scaleType="center" />
+        </LinearLayout>
+    </LinearLayout>
+    <TextView 
+        android:id="@+id/save"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:padding="10dp"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="保存"
+        android:textSize="20sp"
+        android:textColor="#ffffff"
+        android:background="@drawable/item_select_blue"
+        />
+</LinearLayout>
+</ScrollView>

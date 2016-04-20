@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+   
+    <color name="bgggg">#40000000</color>
+    <color name="bgggg2">#FFBB6D</color>
+     <color
+        name="error_text">#D9192C</color>
+
+    <color
+        name="warning_text">#FF9909</color>
+
+    <color
+        name="success_text">#99CC00</color>
+
+    <color
+        name="panel_background">#333333</color>
+
+    <color
+        name="panel_separator">#5a5a5a</color>
+    
+    
+    
+     <color name="white">#ffffff</color>
+     <color name="orange">#FFB90F</color>
+     <color name="gray">#D3D3D3</color>
+     <color name="yello">#FFEC8B</color>
+     <color name="whitegray">#EAEAEA</color>
+     <color name="blackorange">#FF7F50</color>  
+       <color name="full_transparent">#00000000</color>
+       <color name="black_white">#8E8E8E</color>
+        <color name="white_gray2"> #EEE5DE</color>
+        <color name="green">#66CD00</color>
+        <color name="green2">#698B22</color>
+         <color name="green3">#FF7F00</color>
+        <color name="green4">#8EE5EE</color>
+        <color name="pink1">#ECB3AA</color>
+        <color name="blue1">#69ABC1</color>
+        <color name="blue">#006DD9</color>
+        <color name="red1">#FE8081</color>
+        <color name="orange1"> #FFC125</color>
+        <color name="province_line_border">#D0D0D0</color>
+        
+        
+        <color name="black">#000</color>
+        <color name="orangebackge">#EF880F</color>
+        
+        <color name="login_gray">#ECECEC</color>
+        <color name="graybackge">#E4E1D0</color>
+        <color name="textcolor">#DFAC7F</color>
+        
+        <color name="divider">#E1E1E1</color>
+        <color name="gray_login">#C7C7C7</color>
+        <color name="frame">#C0C0C0</color>
+        <color name="black_gray">#848484</color>
+        
+        <color name="greenblue">#5CAA7D</color>
+        
+        <color name="backgroundorange">#FEAD05</color>
+        
+        
+        <color name="sign_text_blakpink">#AA6161</color>
+        <color name="invitebackground">#EDEDED</color>
+        <color name="sign_text_bleakorange">#FF800F</color>
+        <color name="sign_text_pink">#F2C4C4</color>
+        
+        <color name="sign_back_whitepink">#FEF9F6</color>
+        
+        <color name="sign_border">#F64B37</color>
+        <color name="sign_frist_row">#F38759</color>
+        <color name="sign_btn_select">#F54C2F</color>
+        <color name="sign_btn_press">#F1A52D</color>
+        
+        <color name="shake_color_red">#E80000</color>
+        <color name="shake_color_gray">#434343</color>
+        <color name="shake_color_background">#ECECEC</color>
+        <color name="gold_background">#EEEEEE</color>
+        
+        
+        <color name="detail_red">#FF0000</color>
+        
+        <color name="prize1">#6BAADA</color>
+         <color name="prize2">#FA8800</color>
+          <color name="prize3">#F8274E</color>
+          
+           <color name="body_text_1">#ff000000</color>
+    <color name="body_text_2">#99000000</color>
+    <color name="body_text_disabled">#66000000</color>
+    <color name="body_text_1_inverse">#ffffffff</color>
+    <color name="body_text_2_inverse">#99ffffff</color>
+    <color name="accent_1">#ff29549f</color>
+    <color name="hyperlink">#ffff549f</color>
+    <color name="background_1">#ffffffff</color>
+    <color name="whats_on_separator">#4d000000</color>
+    <color name="all_track_color">#ff222222</color>
+    <color name="block_column_1">#ff0fabff</color>
+    <color name="block_column_2">#ffdf1831</color>
+    <color name="block_column_3">#ff009939</color>
+    
+     <color name="black_4">#ff323232</color>
+    <color name="black_5">#ff282828</color>
+    <color name="black_3">#ff7f7870</color>
+     <color name="yellow_1">#fff8a31a</color>
+     <color name="list_bacground">#ffeaeaea</color>
+     <color name="red001">#FF0000</color>
+     <color name="red002">#F23F48</color>
+     <color name="nullcolor">#00000000</color>
+     <color name="menuitemcolor">#860000</color>
+     <color name="menuitemline_red">#ba2b14</color>
+     <color name="menuitemline_greed">#14ba7a</color>
+     
+     
+     <color name="careyun_maincolor">#4DD0C8</color>
+     
+     <color name="normal_text_color">#ff353535</color>
+     
+     
+     <color name="statebar_selected_textcolor">#61C764</color> 
+     <color name="statebar_unselected_textcolor">#8D8E8F</color> 
+    
+</resources>

@@ -1,0 +1,476 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/Users/lichen/AndroidStudioProjects/WbFamilyTree/res/values/colors.xml -->
+    <eat-comment/>
+    <color name="accent_1">#ff29549f</color>
+    <color name="all_track_color">#ff222222</color>
+    <color name="background_1">#ffffffff</color>
+    <color name="backgroundorange">#FEAD05</color>
+    <color name="bgggg">#40000000</color>
+    <color name="bgggg2">#FFBB6D</color>
+    <color name="black">#000</color>
+    <color name="black_3">#ff7f7870</color>
+    <color name="black_4">#ff323232</color>
+    <color name="black_5">#ff282828</color>
+    <color name="black_gray">#848484</color>
+    <color name="black_white">#8E8E8E</color>
+    <color name="blackorange">#FF7F50</color>
+    <color name="block_column_1">#ff0fabff</color>
+    <color name="block_column_2">#ffdf1831</color>
+    <color name="block_column_3">#ff009939</color>
+    <color name="blue">#006DD9</color>
+    <color name="blue1">#69ABC1</color>
+    <color name="body_text_1">#ff000000</color>
+    <color name="body_text_1_inverse">#ffffffff</color>
+    <color name="body_text_2">#99000000</color>
+    <color name="body_text_2_inverse">#99ffffff</color>
+    <color name="body_text_disabled">#66000000</color>
+    <color name="careyun_maincolor">#4DD0C8</color>
+    <color name="detail_red">#FF0000</color>
+    <color name="divider">#E1E1E1</color>
+    <color name="error_text">#D9192C</color>
+    <color name="frame">#C0C0C0</color>
+    <color name="full_transparent">#00000000</color>
+    <color name="gold_background">#EEEEEE</color>
+    <color name="gray">#D3D3D3</color>
+    <color name="gray_login">#C7C7C7</color>
+    <color name="graybackge">#E4E1D0</color>
+    <color name="green">#66CD00</color>
+    <color name="green2">#698B22</color>
+    <color name="green3">#FF7F00</color>
+    <color name="green4">#8EE5EE</color>
+    <color name="greenblue">#5CAA7D</color>
+    <color name="hyperlink">#ffff549f</color>
+    <color name="invitebackground">#EDEDED</color>
+    <color name="list_bacground">#ffeaeaea</color>
+    <color name="login_gray">#ECECEC</color>
+    <color name="menuitemcolor">#860000</color>
+    <color name="menuitemline_greed">#14ba7a</color>
+    <color name="menuitemline_red">#ba2b14</color>
+    <color name="normal_text_color">#ff353535</color>
+    <color name="nullcolor">#00000000</color>
+    <color name="orange">#FFB90F</color>
+    <color name="orange1"> #FFC125</color>
+    <color name="orangebackge">#EF880F</color>
+    <color name="panel_background">#333333</color>
+    <color name="panel_separator">#5a5a5a</color>
+    <color name="pink1">#ECB3AA</color>
+    <color name="prize1">#6BAADA</color>
+    <color name="prize2">#FA8800</color>
+    <color name="prize3">#F8274E</color>
+    <color name="province_line_border">#D0D0D0</color>
+    <color name="red001">#FF0000</color>
+    <color name="red002">#F23F48</color>
+    <color name="red1">#FE8081</color>
+    <color name="shake_color_background">#ECECEC</color>
+    <color name="shake_color_gray">#434343</color>
+    <color name="shake_color_red">#E80000</color>
+    <color name="sign_back_whitepink">#FEF9F6</color>
+    <color name="sign_border">#F64B37</color>
+    <color name="sign_btn_press">#F1A52D</color>
+    <color name="sign_btn_select">#F54C2F</color>
+    <color name="sign_frist_row">#F38759</color>
+    <color name="sign_text_blakpink">#AA6161</color>
+    <color name="sign_text_bleakorange">#FF800F</color>
+    <color name="sign_text_pink">#F2C4C4</color>
+    <color name="statebar_selected_textcolor">#61C764</color>
+    <color name="statebar_unselected_textcolor">#8D8E8F</color>
+    <color name="success_text">#99CC00</color>
+    <color name="textcolor">#DFAC7F</color>
+    <color name="warning_text">#FF9909</color>
+    <color name="whats_on_separator">#4d000000</color>
+    <color name="white">#ffffff</color>
+    <color name="white_gray2"> #EEE5DE</color>
+    <color name="whitegray">#EAEAEA</color>
+    <color name="yello">#FFEC8B</color>
+    <color name="yellow_1">#fff8a31a</color>
+    <!-- From: file:/Users/lichen/AndroidStudioProjects/WbFamilyTree/res/values/dimens.xml -->
+    <eat-comment/>
+    <dimen name="abc_action_bar_default_height_material">56.0dip</dimen>
+    <dimen name="abc_action_bar_default_padding_material">4.0dip</dimen>
+    <dimen name="abc_action_bar_icon_vertical_padding_material">16.0dip</dimen>
+    <dimen name="abc_action_bar_progress_bar_size">40.0dip</dimen>
+    <dimen name="abc_action_bar_stacked_max_height">48.0dip</dimen>
+    <dimen name="abc_action_bar_stacked_tab_max_width">180.0dip</dimen>
+    <dimen name="abc_action_bar_subtitle_bottom_margin_material">5.0dip</dimen>
+    <dimen name="abc_action_bar_subtitle_top_margin_material">-3.0dip</dimen>
+    <dimen name="abc_action_button_min_height_material">48.0dip</dimen>
+    <dimen name="abc_action_button_min_width_material">48.0dip</dimen>
+    <dimen name="abc_action_button_min_width_overflow_material">36.0dip</dimen>
+    <dimen name="abc_config_prefDialogWidth">320.0dip</dimen>
+    <dimen name="abc_control_inset_material">4.0dip</dimen>
+    <dimen name="abc_control_padding_material">4.0dip</dimen>
+    <dimen name="abc_dropdownitem_icon_width">32.0dip</dimen>
+    <dimen name="abc_dropdownitem_text_padding_left">8.0dip</dimen>
+    <dimen name="abc_dropdownitem_text_padding_right">8.0dip</dimen>
+    <dimen name="abc_panel_menu_list_width">296.0dip</dimen>
+    <dimen name="abc_search_view_preferred_width">320.0dip</dimen>
+    <dimen name="abc_search_view_text_min_width">160.0dip</dimen>
+    <dimen name="abc_text_size_body_1_material">16.0sp</dimen>
+    <dimen name="abc_text_size_body_2_material">16.0sp</dimen>
+    <dimen name="abc_text_size_button_material">14.0sp</dimen>
+    <dimen name="abc_text_size_caption_material">12.0sp</dimen>
+    <dimen name="abc_text_size_display_1_material">34.0sp</dimen>
+    <dimen name="abc_text_size_display_2_material">45.0sp</dimen>
+    <dimen name="abc_text_size_display_3_material">56.0sp</dimen>
+    <dimen name="abc_text_size_display_4_material">112.0sp</dimen>
+    <dimen name="abc_text_size_headline_material">24.0sp</dimen>
+    <dimen name="abc_text_size_large_material">22.0sp</dimen>
+    <dimen name="abc_text_size_medium_material">18.0sp</dimen>
+    <dimen name="abc_text_size_menu_material">16.0sp</dimen>
+    <dimen name="abc_text_size_small_material">14.0sp</dimen>
+    <dimen name="abc_text_size_subhead_material">16.0sp</dimen>
+    <dimen name="abc_text_size_subtitle_material_toolbar">16.0dip</dimen>
+    <dimen name="abc_text_size_title_material">20.0sp</dimen>
+    <dimen name="abc_text_size_title_material_toolbar">20.0dip</dimen>
+    <dimen name="activity_horizontal_margin">16.0dip</dimen>
+    <dimen name="activity_vertical_margin">16.0dip</dimen>
+    <item name="dialog_fixed_height_major" type="dimen">79.99999%</item>
+    <item name="dialog_fixed_height_minor" type="dimen">100.0%</item>
+    <dimen name="dialog_fixed_width_major">320.0dip</dimen>
+    <dimen name="dialog_fixed_width_minor">320.0dip</dimen>
+    <item name="disabled_alpha_material_dark" type="dimen">0.3</item>
+    <item name="disabled_alpha_material_light" type="dimen">0.26</item>
+    <dimen name="navigation_drawer_width">240.0dip</dimen>
+    <!-- From: file:/Users/lichen/AndroidStudioProjects/WbFamilyTree/res/values/ids.xml -->
+    <eat-comment/>
+    <item name="action_about" type="id">false</item>
+    <item name="action_bar" type="id">false</item>
+    <item name="action_bar_activity_content" type="id"/>
+    <item name="action_bar_container" type="id">false</item>
+    <item name="action_bar_root" type="id">false</item>
+    <item name="action_bar_spinner" type="id"/>
+    <item name="action_bar_subtitle" type="id">false</item>
+    <item name="action_bar_title" type="id">false</item>
+    <item name="action_close" type="id">false</item>
+    <item name="action_context_bar" type="id">false</item>
+    <item name="action_del" type="id">false</item>
+    <item name="action_docs" type="id">false</item>
+    <item name="action_help" type="id">false</item>
+    <item name="action_items" type="id">false</item>
+    <item name="action_login" type="id">false</item>
+    <item name="action_menu_divider" type="id"/>
+    <item name="action_menu_presenter" type="id"/>
+    <item name="action_mode_bar" type="id">false</item>
+    <item name="action_mode_bar_stub" type="id">false</item>
+    <item name="action_mode_close_button" type="id">false</item>
+    <item name="action_new" type="id">false</item>
+    <item name="action_rels" type="id">false</item>
+    <item name="action_save" type="id">false</item>
+    <item name="action_savebmp" type="id">false</item>
+    <item name="action_settings" type="id">false</item>
+    <item name="action_share" type="id">false</item>
+    <item name="action_zuren" type="id">false</item>
+    <item name="activity_chooser_view_content" type="id">false</item>
+    <item name="btnBakDB" type="id">false</item>
+    <item name="btnCancel" type="id">false</item>
+    <item name="btnExportTxt" type="id">false</item>
+    <item name="btnGet" type="id">false</item>
+    <item name="btnInitDB" type="id">false</item>
+    <item name="btnLogin" type="id">false</item>
+    <item name="btnNew" type="id">false</item>
+    <item name="btnPhoneV" type="id">false</item>
+    <item name="btnPhoto" type="id">false</item>
+    <item name="btnRestoreDB" type="id">false</item>
+    <item name="btnSearch" type="id">false</item>
+    <item name="btnSearch9" type="id">false</item>
+    <item name="btnZoom" type="id">false</item>
+    <item name="btn_cancel" type="id">false</item>
+    <item name="btn_pick_photo" type="id">false</item>
+    <item name="btn_take_photo" type="id">false</item>
+    <item name="cbLiveStatus" type="id">false</item>
+    <item name="cbSameSurname" type="id">false</item>
+    <item name="checkbox" type="id">false</item>
+    <item name="container" type="id">false</item>
+    <item name="decor_content_parent" type="id">false</item>
+    <item name="default_activity_button" type="id">false</item>
+    <item name="drawer_layout" type="id">false</item>
+    <item name="edit_query" type="id">false</item>
+    <item name="etAddress" type="id">false</item>
+    <item name="etBirthday" type="id">false</item>
+    <item name="etCname" type="id">false</item>
+    <item name="etContent" type="id">false</item>
+    <item name="etDocDate" type="id">false</item>
+    <item name="etDocId" type="id">false</item>
+    <item name="etDocTitle" type="id">false</item>
+    <item name="etDscr" type="id">false</item>
+    <item name="etEmail" type="id">false</item>
+    <item name="etEndDate" type="id">false</item>
+    <item name="etFatherID" type="id">false</item>
+    <item name="etId" type="id">false</item>
+    <item name="etJpCode" type="id">false</item>
+    <item name="etJpTitle" type="id">false</item>
+    <item name="etLastname" type="id">false</item>
+    <item name="etLevel" type="id">false</item>
+    <item name="etMobile" type="id">false</item>
+    <item name="etMotherID" type="id">false</item>
+    <item name="etOther1" type="id">false</item>
+    <item name="etPhone" type="id">false</item>
+    <item name="etPhoto" type="id">false</item>
+    <item name="etPlace" type="id">false</item>
+    <item name="etPwd" type="id">false</item>
+    <item name="etQQ" type="id">false</item>
+    <item name="etRank" type="id">false</item>
+    <item name="etRelationCode" type="id">false</item>
+    <item name="etRemark" type="id">false</item>
+    <item name="etResume" type="id">false</item>
+    <item name="etSearch" type="id">false</item>
+    <item name="etSearch0" type="id">false</item>
+    <item name="etSurname" type="id">false</item>
+    <item name="etTitle" type="id">false</item>
+    <item name="etVcode" type="id">false</item>
+    <item name="etZrCode" type="id">false</item>
+    <item name="etZrLevel" type="id">false</item>
+    <item name="etZuren1" type="id">false</item>
+    <item name="etZuren2" type="id">false</item>
+    <item name="etZurenList" type="id">false</item>
+    <item name="expand_activities_button" type="id">false</item>
+    <item name="expanded_menu" type="id">false</item>
+    <item name="gdback1" type="id">false</item>
+    <item name="gvZRList" type="id">false</item>
+    <item name="home" type="id"/>
+    <item name="horizontalScrollView" type="id">false</item>
+    <item name="horizontalScrollView2" type="id">false</item>
+    <item name="ibBirthday" type="id">false</item>
+    <item name="ibDelete" type="id">false</item>
+    <item name="ibDocDate" type="id">false</item>
+    <item name="ibDocs" type="id">false</item>
+    <item name="ibEdit" type="id">false</item>
+    <item name="ibEnddate" type="id">false</item>
+    <item name="ibFatherID" type="id">false</item>
+    <item name="ibMessage" type="id">false</item>
+    <item name="ibMotherID" type="id">false</item>
+    <item name="ibRelationCode" type="id">false</item>
+    <item name="ibSameSurname" type="id">false</item>
+    <item name="ibSave" type="id">false</item>
+    <item name="ibTel" type="id">false</item>
+    <item name="ibTree" type="id">false</item>
+    <item name="ibZuren" type="id">false</item>
+    <item name="ibZuren1" type="id">false</item>
+    <item name="ibZuren2" type="id">false</item>
+    <item name="icon" type="id">false</item>
+    <item name="image" type="id">false</item>
+    <item name="ivCode" type="id">false</item>
+    <item name="ivHead" type="id">false</item>
+    <item name="ivPhoto" type="id">false</item>
+    <item name="ivTitle" type="id">false</item>
+    <item name="linearLayout" type="id">false</item>
+    <item name="linearLayout0" type="id">false</item>
+    <item name="linearLayout2" type="id">false</item>
+    <item name="linearLayout3" type="id">false</item>
+    <item name="linearLayout4" type="id">false</item>
+    <item name="linearLayout5" type="id">false</item>
+    <item name="linearLayout6" type="id">false</item>
+    <item name="listView1" type="id">false</item>
+    <item name="list_gridView" type="id">false</item>
+    <item name="list_item" type="id">false</item>
+    <item name="ll01" type="id">false</item>
+    <item name="ll11" type="id">false</item>
+    <item name="llEnddate" type="id">false</item>
+    <item name="llItem" type="id">false</item>
+    <item name="llpage1" type="id">false</item>
+    <item name="lvList1" type="id">false</item>
+    <item name="navigation_drawer" type="id">false</item>
+    <item name="pbar1" type="id">false</item>
+    <item name="pop_layout" type="id">false</item>
+    <item name="progress_circular" type="id"/>
+    <item name="progress_horizontal" type="id"/>
+    <item name="radio" type="id">false</item>
+    <item name="rbSex1" type="id">false</item>
+    <item name="rbSex2" type="id">false</item>
+    <item name="rbStyleHor" type="id">false</item>
+    <item name="rbStyleVer" type="id">false</item>
+    <item name="rgStyle" type="id">false</item>
+    <item name="scrollView" type="id">false</item>
+    <item name="scrollView2" type="id">false</item>
+    <item name="search_badge" type="id">false</item>
+    <item name="search_bar" type="id">false</item>
+    <item name="search_button" type="id">false</item>
+    <item name="search_close_btn" type="id">false</item>
+    <item name="search_edit_frame" type="id">false</item>
+    <item name="search_go_btn" type="id">false</item>
+    <item name="search_mag_icon" type="id">false</item>
+    <item name="search_plate" type="id">false</item>
+    <item name="search_src_text" type="id">false</item>
+    <item name="search_voice_btn" type="id">false</item>
+    <item name="shortcut" type="id">false</item>
+    <item name="spinner01" type="id">false</item>
+    <item name="split_action_bar" type="id"/>
+    <item name="submit_area" type="id">false</item>
+    <item name="tab1" type="id">false</item>
+    <item name="tab2" type="id">false</item>
+    <item name="tab2_1" type="id">false</item>
+    <item name="tab3" type="id">false</item>
+    <item name="tab4" type="id">false</item>
+    <item name="tabHost" type="id">false</item>
+    <item name="tabHost2" type="id">false</item>
+    <item name="textView" type="id">false</item>
+    <item name="title" type="id">false</item>
+    <item name="tlZrEdit3" type="id">false</item>
+    <item name="tvAddress" type="id">false</item>
+    <item name="tvAddress2" type="id">false</item>
+    <item name="tvBJXsearchTitle" type="id">false</item>
+    <item name="tvBirthday" type="id">false</item>
+    <item name="tvBirthday2" type="id">false</item>
+    <item name="tvBornPlace" type="id">false</item>
+    <item name="tvBornPlace2" type="id">false</item>
+    <item name="tvCname" type="id">false</item>
+    <item name="tvCname2" type="id">false</item>
+    <item name="tvConent" type="id">false</item>
+    <item name="tvDocDate" type="id">false</item>
+    <item name="tvDocId" type="id">false</item>
+    <item name="tvDocTitle" type="id">false</item>
+    <item name="tvDscr" type="id">false</item>
+    <item name="tvEmail" type="id">false</item>
+    <item name="tvEmail2" type="id">false</item>
+    <item name="tvEnddate" type="id">false</item>
+    <item name="tvFatherID" type="id">false</item>
+    <item name="tvFatherID2" type="id">false</item>
+    <item name="tvFathername" type="id">false</item>
+    <item name="tvGetPwd" type="id">false</item>
+    <item name="tvHomeid" type="id">false</item>
+    <item name="tvID" type="id">false</item>
+    <item name="tvId" type="id">false</item>
+    <item name="tvJPCode" type="id">false</item>
+    <item name="tvJpPlace" type="id">false</item>
+    <item name="tvJpTitle" type="id">false</item>
+    <item name="tvLiveStatus" type="id">false</item>
+    <item name="tvLiveStatus2" type="id">false</item>
+    <item name="tvMobile" type="id">false</item>
+    <item name="tvMobile2" type="id">false</item>
+    <item name="tvMotherID" type="id">false</item>
+    <item name="tvMotherID2" type="id">false</item>
+    <item name="tvMothername" type="id">false</item>
+    <item name="tvOther1" type="id">false</item>
+    <item name="tvOther12" type="id">false</item>
+    <item name="tvPhone" type="id">false</item>
+    <item name="tvPhone2" type="id">false</item>
+    <item name="tvPhoto" type="id">false</item>
+    <item name="tvQQ" type="id">false</item>
+    <item name="tvQQ2" type="id">false</item>
+    <item name="tvRank" type="id">false</item>
+    <item name="tvRank2" type="id">false</item>
+    <item name="tvRegister" type="id">false</item>
+    <item name="tvRelDscr" type="id">false</item>
+    <item name="tvRelationCode" type="id">false</item>
+    <item name="tvRemark" type="id">false</item>
+    <item name="tvRemark2" type="id">false</item>
+    <item name="tvResume" type="id">false</item>
+    <item name="tvResume2" type="id">false</item>
+    <item name="tvSameSurname" type="id">false</item>
+    <item name="tvSameSurname2" type="id">false</item>
+    <item name="tvSetTitle" type="id">false</item>
+    <item name="tvSex" type="id">false</item>
+    <item name="tvSurname" type="id">false</item>
+    <item name="tvTitle" type="id">false</item>
+    <item name="tvTitle2" type="id">false</item>
+    <item name="tvTitleJP" type="id">false</item>
+    <item name="tvTitleZrCard" type="id">false</item>
+    <item name="tvVerifyCode" type="id">false</item>
+    <item name="tvVersion" type="id">false</item>
+    <item name="tvZRCode" type="id">false</item>
+    <item name="tvZRDocTitle" type="id">false</item>
+    <item name="tvZrLevel" type="id">false</item>
+    <item name="tvZrLevel2" type="id">false</item>
+    <item name="tvZrRank" type="id">false</item>
+    <item name="tvZrRelTitle" type="id">false</item>
+    <item name="tvZrSex" type="id">false</item>
+    <item name="tvZrSex2" type="id">false</item>
+    <item name="tvZuren1" type="id">false</item>
+    <item name="tvZuren1name" type="id">false</item>
+    <item name="tvZuren2" type="id">false</item>
+    <item name="tvZuren2name" type="id">false</item>
+    <item name="tvZurenList" type="id">false</item>
+    <item name="tvpassword" type="id">false</item>
+    <item name="up" type="id"/>
+    <item name="webView1" type="id">false</item>
+    <item name="zoom_image_view" type="id">false</item>
+    <!-- From: file:/Users/lichen/AndroidStudioProjects/WbFamilyTree/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="abc_action_bar_home_description">Navigate home</string>
+    <string name="abc_action_bar_home_description_format">%1$s, %2$s</string>
+    <string name="abc_action_bar_home_subtitle_description_format">%1$s, %2$s, %3$s</string>
+    <string name="abc_action_bar_up_description">Navigate up</string>
+    <string name="abc_action_menu_overflow_description">More options</string>
+    <string name="abc_action_mode_done">Done</string>
+    <string name="abc_activity_chooser_view_see_all">See all</string>
+    <string name="abc_activitychooserview_choose_application">Choose an app</string>
+    <string name="abc_searchview_description_clear">Clear query</string>
+    <string name="abc_searchview_description_query">Search query</string>
+    <string name="abc_searchview_description_search">Search</string>
+    <string name="abc_searchview_description_submit">Submit query</string>
+    <string name="abc_searchview_description_voice">Voice search</string>
+    <string name="abc_shareactionprovider_share_with">Share with</string>
+    <string name="abc_shareactionprovider_share_with_application">Share with %s</string>
+    <string name="abc_toolbar_collapse_description">Collapse</string>
+    <string name="action_about">关于</string>
+    <string name="action_example">Example action</string>
+    <string name="action_help">帮助</string>
+    <string name="action_settings">设置</string>
+    <string name="app_name">天下家谱</string>
+    <string name="birthdayhint">1990-06-09</string>
+    <string name="btnBack">返回</string>
+    <string name="btnDelete">删除</string>
+    <string name="btnEdit">修改</string>
+    <string name="btnExit">退出</string>
+    <string name="btnNew">新建</string>
+    <string name="btnSave">保存</string>
+    <string name="etJpplace">姓氏所在城市或区域</string>
+    <string name="etJptitleHint">地区+姓氏</string>
+    <string name="etSurnamehint">单字姓或复姓</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="hintCname">姓+名</string>
+    <string name="hintLastname">字号</string>
+    <string name="hintSearch">关键字</string>
+    <string name="mnuGetPwd">找回密码</string>
+    <string name="mnuLogin">登入</string>
+    <string name="mnuRegister">注册</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="share">分享</string>
+    <string name="spinner_beishu">请选择显示辈数</string>
+    <string name="title_activity_about">关于...</string>
+    <string name="title_activity_baijiaxing">中华百家姓</string>
+    <string name="title_activity_docs">家族文档</string>
+    <string name="title_activity_docs_edit">文档维护</string>
+    <string name="title_activity_help">快速入门</string>
+    <string name="title_activity_image_zoom">图片缩放</string>
+    <string name="title_activity_jpedit">谱系维护</string>
+    <string name="title_activity_login">用户登入</string>
+    <string name="title_activity_main">主界面</string>
+    <string name="title_activity_phone_verify">手机号码验证</string>
+    <string name="title_activity_relation">族人关系</string>
+    <string name="title_activity_rels_edit">关系维护</string>
+    <string name="title_activity_rels_item">关系项目</string>
+    <string name="title_activity_set">系统设置</string>
+    <string name="title_activity_splash">天下家谱</string>
+    <string name="title_activity_zr_card">族人资料</string>
+    <string name="title_activity_zredit">族人维护</string>
+    <string name="title_activity_zrtree">亲系图</string>
+    <string name="title_activity_zuren">族人维护</string>
+    <string name="title_sectionBJX">中华百家姓</string>
+    <string name="title_sectionDoc">家族文档</string>
+    <string name="title_sectionExit">退出</string>
+    <string name="title_sectionHelp">快速入门</string>
+    <string name="title_sectionJP">谱系维护</string>
+    <string name="title_sectionRel">族人关系</string>
+    <string name="title_sectionSys">设置</string>
+    <string name="title_sectionTree">亲系图</string>
+    <string name="title_sectionZR">族人维护</string>
+    <string name="tvMyJiapu">我的家谱</string>
+    <string name="zrlevelhint">1</string>
+    <string name="zrrankhint">1</string>
+    <!-- From: file:/Users/lichen/AndroidStudioProjects/WbFamilyTree/res/values/styles.xml -->
+    <eat-comment/>
+    <style name="MyDialog" parent="@android:Theme.Dialog">
+         <item name="android:windowFrame">@null</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:background">@android:color/transparent</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:backgroundDimEnabled">true</item>
+        <item name="android:backgroundDimAmount">0.6</item>
+    </style>
+</resources>

@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+      android:background="@drawable/bag"
+    android:clickable="true"
+    android:orientation="vertical"
+    
+    android:layout_marginLeft="30dp"
+    android:layout_marginRight="30dp"
+   
+     >
+
+    <LinearLayout
+        android:paddingTop="24dp"
+        android:paddingLeft="24dp"
+        android:paddingRight="24dp"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+       
+       android:orientation="vertical"
+         >
+
+       
+
+        <TextView
+            android:id="@+id/dialog_sign_title"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:gravity="center"
+            android:text="友情提示"
+            android:textColor="#565657"
+            android:textSize="20sp" />
+        
+      <!--   <TextView
+        android:layout_marginTop="24dp"
+        android:layout_marginBottom="16dp"
+        android:id="@+id/dialog_sign_message"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+      
+        
+        android:text="普通签到奖励200金币，签到并分享到QQ空间奖励300金币。"
+        android:textColor="#8D8D8D"
+        android:textSize="18sp" 
+        
+        /> -->
+    </LinearLayout>
+      <TextView
+           
+        android:paddingLeft="24dp"
+        android:paddingRight="24dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:id="@+id/dialog_sign_message"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+      
+        
+        android:text="普通签到奖励200金币,签到并分享到QQ空间奖励300金币."
+        android:textColor="#8D8D8D"
+        android:textSize="18sp" 
+        
+        />
+
+   
+
+    <RelativeLayout
+        
+        android:layout_width="fill_parent"
+        android:layout_height="48dp"
+        android:layout_marginBottom="2dp"
+       
+        
+       
+         >
+
+
+       
+        <Button
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+           android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="6dp"
+            android:id="@+id/diaglog_sign_btn_share"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+           
+            android:background="@drawable/item_select"
+            
+            android:text="签到并分享"
+            android:textColor="#92C9F7"
+            android:textSize="14sp" />
+         <Button
+           android:paddingLeft="10dp"
+           android:paddingRight="10dp"
+           android:layout_marginRight="16dp"
+           android:layout_toLeftOf="@id/diaglog_sign_btn_share"
+            android:id="@+id/diaglog_sign_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            
+            android:background="@drawable/item_select"
+            
+           
+            android:text="普通签到"
+            android:textColor="#5D5D5D"
+            android:textSize="14sp" />
+        
+    </RelativeLayout>
+
+</LinearLayout>

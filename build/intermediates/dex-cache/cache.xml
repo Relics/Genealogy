@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/Users/lichen/AndroidStudioProjects/WbFamilyTree/libs/gson-2.4.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="0695b63d702f505b9b916e02272e3b6381bade7f">
+        <dex dex="/Users/lichen/AndroidStudioProjects/WbFamilyTree/build/intermediates/pre-dexed/debug/gson-2.4-16e709479faf2954b4e01375d343964c354e5f83.jar" />
+    </item>
+    <item
+        jar="/Users/lichen/AndroidStudioProjects/WbFamilyTree/libs/libammsdk.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="11b09244aedaa51bfd09269637be7c32c60da314">
+        <dex dex="/Users/lichen/AndroidStudioProjects/WbFamilyTree/build/intermediates/pre-dexed/debug/libammsdk-3f0f8083b36f19ad27848155694447cf5a58b336.jar" />
+    </item>
+    <item
+        jar="/Users/lichen/AndroidStudioProjects/WbFamilyTree/libs/android-support-v4.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="1dc1f63cee098b27db60b9a2833fd7ca58f89636">
+        <dex dex="/Users/lichen/AndroidStudioProjects/WbFamilyTree/build/intermediates/pre-dexed/debug/android-support-v4-abdc1f58277806039a1f260ddb3367e3ae2abbff.jar" />
+    </item>
+
+</items>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+     <RelativeLayout
+        android:id="@+id/absTitle_fm"
+        android:layout_width="match_parent"
+        android:layout_height="55dip"
+        android:layout_alignParentTop="true"
+   
+        android:background="@color/careyun_maincolor"
+        >
+        
+        <include 
+            android:id="@+id/main_title_showNum"
+            layout="@layout/main_title"
+            />
+       
+      
+             <TextView
+           android:id="@+id/add"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="10dp"
+            android:layout_centerVertical="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+       		android:text="分享"
+      		android:textColor="#ffffff"
+            /> 
+       
+       
+    </RelativeLayout>
+<RelativeLayout 
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:id="@+id/group"
+    android:background="#ffffff"
+    >
+             <ImageView 
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:src="@drawable/new_admin_other_func_8"
+                 />
+    
+    
+</RelativeLayout>
+</LinearLayout>
