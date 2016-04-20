@@ -1,2 +1,2 @@
 # Genealogy
-A genealogy project
+A genealogy project based on Android Platform.
